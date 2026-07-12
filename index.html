@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KelimEng — Gizlilik Politikası</title>
+  <style>
+    :root {
+      --bg: #f7f1e6; --card: #ffffff; --ink: #1a1a1a; --muted: #6f6a5e;
+      --accent: #3d7bf7; --line: #e7dfce;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #171613; --card: #24221e; --ink: #ece7dc; --muted: #a49d8d;
+        --accent: #5b8df8; --line: #322f29; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+    header { margin-bottom: 32px; }
+    .brand { font-size: 30px; font-weight: 800; letter-spacing: -0.5px; }
+    .brand span { color: var(--accent); }
+    h1 { font-size: 24px; margin: 6px 0 4px; }
+    .updated { color: var(--muted); font-size: 14px; }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+      padding: 22px 24px; margin: 18px 0;
+    }
+    h2 { font-size: 18px; margin: 4px 0 10px; }
+    p, li { font-size: 15.5px; }
+    ul { padding-left: 20px; margin: 8px 0; }
+    li { margin: 5px 0; }
+    a { color: var(--accent); }
+    .muted { color: var(--muted); }
+    strong { font-weight: 700; }
+    footer { color: var(--muted); font-size: 13.5px; margin-top: 30px; text-align: center; }
+    code { background: rgba(125,125,125,.14); padding: 1px 6px; border-radius: 6px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">Kelim<span>Eng</span></div>
+      <h1>Gizlilik Politikası</h1>
+      <div class="updated">Son güncelleme: 12 Temmuz 2026</div>
+    </header>
+
+    <div class="card">
+      <p>
+        Bu gizlilik politikası, <strong>KelimEng</strong> mobil uygulamasının
+        (<code>com.erenctns.kelimeng</code>) kişisel verilerinizi nasıl işlediğini açıklar.
+        KelimEng, Türkçe konuşanlar için İngilizce kelime öğrenme uygulamasıdır.
+        Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Topladığımız veriler</h2>
+      <p>Yalnızca uygulamanın çalışması için gereken en az veriyi toplarız:</p>
+      <ul>
+        <li>
+          <strong>E-posta adresi</strong> — yalnızca Google ile giriş yapmayı
+          <em>seçerseniz</em>. Hesabınızı tanımlamak ve öğrenme ilerlemenizi
+          cihazlarınız arasında yedeklemek/eşitlemek için kullanılır.
+        </li>
+        <li>
+          <strong>Öğrenme ilerlemeniz</strong> — çalıştığınız kelimelerin durumu,
+          tekrar geçmişi (zaman damgaları ve değerlendirmeler) ve uygulama ayarlarınız
+          (günlük hedef, seviye gibi). Bu, ilerlemenizi kaldığınız yerden sürdürebilmeniz
+          içindir.
+        </li>
+      </ul>
+      <p class="muted">
+        Girişi <strong>misafir olarak</strong> atlarsanız hiçbir veri cihazınızdan
+        çıkmaz; tüm ilerlemeniz yalnızca telefonunuzda saklanır.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Toplamadığımız veriler</h2>
+      <ul>
+        <li>Reklam veya reklam kimliği — <strong>reklam göstermiyoruz.</strong></li>
+        <li>Konum bilgisi.</li>
+        <li>Rehber, fotoğraflar, mesajlar veya diğer cihaz içeriği.</li>
+        <li>Üçüncü taraf analitik/izleme (Google Analytics, Facebook SDK vb. <strong>yok</strong>).</li>
+        <li>Şifreniz — Google girişinde şifreniz bize hiçbir zaman ulaşmaz.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Verileri kimlerle paylaşıyoruz</h2>
+      <p>Verilerinizi satmayız. Yalnızca aşağıdaki hizmet sağlayıcıları uygulamanın
+        çalışması için kullanılır:</p>
+      <ul>
+        <li>
+          <strong>Supabase</strong> — kimlik doğrulama ve ilerleme verilerinin güvenli
+          barındırılması (veritabanı ve depolama).
+          <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase Gizlilik Politikası</a>
+        </li>
+        <li>
+          <strong>Google</strong> — yalnızca "Google ile giriş" özelliğini kullanırsanız,
+          kimlik doğrulama için.
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Verilerin saklanması ve silinmesi</h2>
+      <p>
+        Hesabınız aktif olduğu sürece ilerleme verileriniz saklanır. Hesabınızı ve
+        tüm ilişkili verileri silmek isterseniz, aşağıdaki e-posta adresinden bize
+        ulaşın; talebinizi makul bir süre içinde işleme alır ve verilerinizi kalıcı
+        olarak sileriz. Misafir modundaki veriler yalnızca cihazınızdadır; uygulamayı
+        kaldırdığınızda silinir.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Çocukların gizliliği</h2>
+      <p>
+        KelimEng 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan
+        kişisel veri toplamayız.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Değişiklikler</h2>
+      <p>
+        Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde bu sayfadaki
+        "Son güncelleme" tarihini değiştiririz.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>İletişim</h2>
+      <p>
+        Gizlilikle ilgili soru veya veri silme talepleri için:
+        <br />
+        <a href="mailto:kelimengapp@gmail.com">kelimengapp@gmail.com</a>
+      </p>
+    </div>
+
+    <footer>
+      © 2026 KelimEng · Bu sayfa uygulamanın gizlilik politikasıdır.
+    </footer>
+  </div>
+</body>
+</html>
